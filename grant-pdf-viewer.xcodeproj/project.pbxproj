@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE16CFFE1B8E49AF003CF11F /* Controls.png in Resources */ = {isa = PBXBuildFile; fileRef = DE16CFF81B8E49AF003CF11F /* Controls.png */; };
+		DE16CFFF1B8E49AF003CF11F /* Cylinder.png in Resources */ = {isa = PBXBuildFile; fileRef = DE16CFF91B8E49AF003CF11F /* Cylinder.png */; };
+		DE16D0011B8E49AF003CF11F /* Oil.png in Resources */ = {isa = PBXBuildFile; fileRef = DE16CFFB1B8E49AF003CF11F /* Oil.png */; };
+		DE16D0021B8E49AF003CF11F /* Solar Thermal.png in Resources */ = {isa = PBXBuildFile; fileRef = DE16CFFC1B8E49AF003CF11F /* Solar Thermal.png */; };
+		DE16D0041B8E4A05003CF11F /* Biomass.png in Resources */ = {isa = PBXBuildFile; fileRef = DE16D0031B8E4A05003CF11F /* Biomass.png */; };
+		DE2FA9631BA367E700B30C81 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE2FA9621BA367E700B30C81 /* Settings.bundle */; };
+		DE3C67841B6F6F6E00AE8C06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C67831B6F6F6E00AE8C06 /* AppDelegate.swift */; };
+		DE3C67861B6F6F6E00AE8C06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C67851B6F6F6E00AE8C06 /* ViewController.swift */; };
+		DE3C67891B6F6F6E00AE8C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3C67871B6F6F6E00AE8C06 /* Main.storyboard */; };
+		DE3C678B1B6F6F6E00AE8C06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3C678A1B6F6F6E00AE8C06 /* Images.xcassets */; };
+		DE3C678E1B6F6F6E00AE8C06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3C678C1B6F6F6E00AE8C06 /* LaunchScreen.xib */; };
+		DE3C679A1B6F6F6E00AE8C06 /* grant_pdf_viewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C67991B6F6F6E00AE8C06 /* grant_pdf_viewerTests.swift */; };
+		DE3C67A41B6F6FE400AE8C06 /* pdfDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C67A31B6F6FE400AE8C06 /* pdfDataSource.swift */; };
+		DE3C67A61B6F8E7500AE8C06 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C67A51B6F8E7500AE8C06 /* DetailViewController.swift */; };
+		DE3C67A91B6F913C00AE8C06 /* build in Resources */ = {isa = PBXBuildFile; fileRef = DE3C67A71B6F913C00AE8C06 /* build */; };
+		DE3C67AA1B6F913C00AE8C06 /* pdfjs in Resources */ = {isa = PBXBuildFile; fileRef = DE3C67A81B6F913C00AE8C06 /* pdfjs */; };
+		DE3C67AE1B6F923800AE8C06 /* TableViewTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C67AD1B6F923800AE8C06 /* TableViewTwoController.swift */; };
+		DEA362861DD448D0005E84C2 /* Hybrid.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA362851DD448D0005E84C2 /* Hybrid.png */; };
+		DEA362881DD44D23005E84C2 /* Heat Pump.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA362871DD44D23005E84C2 /* Heat Pump.png */; };
+		DED1807D1B85232B00248D9D /* Grant logo.jpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DED1807C1B85232B00248D9D /* Grant logo.jpg.jpg */; };
+		DEDF0E1F1B9F8E030033663D /* FAIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF0E1D1B9F8E030033663D /* FAIcon.swift */; };
+		DEDF0E201B9F8E030033663D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEDF0E1E1B9F8E030033663D /* FontAwesome.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE3C67941B6F6F6E00AE8C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE3C67761B6F6F6E00AE8C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3C677D1B6F6F6E00AE8C06;
+			remoteInfo = "grant-pdf-viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE16CFF81B8E49AF003CF11F /* Controls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Controls.png; sourceTree = "<group>"; };
+		DE16CFF91B8E49AF003CF11F /* Cylinder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cylinder.png; sourceTree = "<group>"; };
+		DE16CFFB1B8E49AF003CF11F /* Oil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oil.png; sourceTree = "<group>"; };
+		DE16CFFC1B8E49AF003CF11F /* Solar Thermal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Solar Thermal.png"; sourceTree = "<group>"; };
+		DE16D0031B8E4A05003CF11F /* Biomass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Biomass.png; sourceTree = "<group>"; };
+		DE2FA9621BA367E700B30C81 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		DE3C677E1B6F6F6E00AE8C06 /* grant-pdf-viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "grant-pdf-viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3C67821B6F6F6E00AE8C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3C67831B6F6F6E00AE8C06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE3C67851B6F6F6E00AE8C06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE3C67881B6F6F6E00AE8C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE3C678A1B6F6F6E00AE8C06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE3C678D1B6F6F6E00AE8C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DE3C67931B6F6F6E00AE8C06 /* grant-pdf-viewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "grant-pdf-viewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3C67981B6F6F6E00AE8C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3C67991B6F6F6E00AE8C06 /* grant_pdf_viewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grant_pdf_viewerTests.swift; sourceTree = "<group>"; };
+		DE3C67A31B6F6FE400AE8C06 /* pdfDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pdfDataSource.swift; sourceTree = "<group>"; };
+		DE3C67A51B6F8E7500AE8C06 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DE3C67A71B6F913C00AE8C06 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		DE3C67A81B6F913C00AE8C06 /* pdfjs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pdfjs; sourceTree = "<group>"; };
+		DE3C67AD1B6F923800AE8C06 /* TableViewTwoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewTwoController.swift; sourceTree = "<group>"; };
+		DEA362851DD448D0005E84C2 /* Hybrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hybrid.png; sourceTree = "<group>"; };
+		DEA362871DD44D23005E84C2 /* Heat Pump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heat Pump.png"; sourceTree = "<group>"; };
+		DED1807C1B85232B00248D9D /* Grant logo.jpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grant logo.jpg.jpg"; sourceTree = "<group>"; };
+		DEDF0E1D1B9F8E030033663D /* FAIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAIcon.swift; sourceTree = "<group>"; };
+		DEDF0E1E1B9F8E030033663D /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE3C677B1B6F6F6E00AE8C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3C67901B6F6F6E00AE8C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE3C67751B6F6F6E00AE8C06 = {
+			isa = PBXGroup;
+			children = (
+				DE2FA9621BA367E700B30C81 /* Settings.bundle */,
+				DE3C67A71B6F913C00AE8C06 /* build */,
+				DE3C67A81B6F913C00AE8C06 /* pdfjs */,
+				DE3C67801B6F6F6E00AE8C06 /* grant-pdf-viewer */,
+				DE3C67961B6F6F6E00AE8C06 /* grant-pdf-viewerTests */,
+				DE3C677F1B6F6F6E00AE8C06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE3C677F1B6F6F6E00AE8C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C677E1B6F6F6E00AE8C06 /* grant-pdf-viewer.app */,
+				DE3C67931B6F6F6E00AE8C06 /* grant-pdf-viewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE3C67801B6F6F6E00AE8C06 /* grant-pdf-viewer */ = {
+			isa = PBXGroup;
+			children = (
+				DEDF0E1D1B9F8E030033663D /* FAIcon.swift */,
+				DEDF0E1E1B9F8E030033663D /* FontAwesome.ttf */,
+				DE3C67831B6F6F6E00AE8C06 /* AppDelegate.swift */,
+				DE3C67851B6F6F6E00AE8C06 /* ViewController.swift */,
+				DE3C67A51B6F8E7500AE8C06 /* DetailViewController.swift */,
+				DE3C67871B6F6F6E00AE8C06 /* Main.storyboard */,
+				DE3C67AD1B6F923800AE8C06 /* TableViewTwoController.swift */,
+				DE3C67A31B6F6FE400AE8C06 /* pdfDataSource.swift */,
+				DE3C678A1B6F6F6E00AE8C06 /* Images.xcassets */,
+				DE3C678C1B6F6F6E00AE8C06 /* LaunchScreen.xib */,
+				DED1807C1B85232B00248D9D /* Grant logo.jpg.jpg */,
+				DEA362851DD448D0005E84C2 /* Hybrid.png */,
+				DE16CFF81B8E49AF003CF11F /* Controls.png */,
+				DEA362871DD44D23005E84C2 /* Heat Pump.png */,
+				DE16D0031B8E4A05003CF11F /* Biomass.png */,
+				DE16CFF91B8E49AF003CF11F /* Cylinder.png */,
+				DE16CFFB1B8E49AF003CF11F /* Oil.png */,
+				DE16CFFC1B8E49AF003CF11F /* Solar Thermal.png */,
+				DE3C67811B6F6F6E00AE8C06 /* Supporting Files */,
+			);
+			path = "grant-pdf-viewer";
+			sourceTree = "<group>";
+		};
+		DE3C67811B6F6F6E00AE8C06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C67821B6F6F6E00AE8C06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE3C67961B6F6F6E00AE8C06 /* grant-pdf-viewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C67991B6F6F6E00AE8C06 /* grant_pdf_viewerTests.swift */,
+				DE3C67971B6F6F6E00AE8C06 /* Supporting Files */,
+			);
+			path = "grant-pdf-viewerTests";
+			sourceTree = "<group>";
+		};
+		DE3C67971B6F6F6E00AE8C06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C67981B6F6F6E00AE8C06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE3C677D1B6F6F6E00AE8C06 /* grant-pdf-viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE3C679D1B6F6F6E00AE8C06 /* Build configuration list for PBXNativeTarget "grant-pdf-viewer" */;
+			buildPhases = (
+				DE3C677A1B6F6F6E00AE8C06 /* Sources */,
+				DE3C677B1B6F6F6E00AE8C06 /* Frameworks */,
+				DE3C677C1B6F6F6E00AE8C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "grant-pdf-viewer";
+			productName = "grant-pdf-viewer";
+			productReference = DE3C677E1B6F6F6E00AE8C06 /* grant-pdf-viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE3C67921B6F6F6E00AE8C06 /* grant-pdf-viewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE3C67A01B6F6F6E00AE8C06 /* Build configuration list for PBXNativeTarget "grant-pdf-viewerTests" */;
+			buildPhases = (
+				DE3C678F1B6F6F6E00AE8C06 /* Sources */,
+				DE3C67901B6F6F6E00AE8C06 /* Frameworks */,
+				DE3C67911B6F6F6E00AE8C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE3C67951B6F6F6E00AE8C06 /* PBXTargetDependency */,
+			);
+			name = "grant-pdf-viewerTests";
+			productName = "grant-pdf-viewerTests";
+			productReference = DE3C67931B6F6F6E00AE8C06 /* grant-pdf-viewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE3C67761B6F6F6E00AE8C06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Phil Hauser";
+				TargetAttributes = {
+					DE3C677D1B6F6F6E00AE8C06 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 6CF3Q3376G;
+						LastSwiftMigration = 0810;
+					};
+					DE3C67921B6F6F6E00AE8C06 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0810;
+						TestTargetID = DE3C677D1B6F6F6E00AE8C06;
+					};
+				};
+			};
+			buildConfigurationList = DE3C67791B6F6F6E00AE8C06 /* Build configuration list for PBXProject "grant-pdf-viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE3C67751B6F6F6E00AE8C06;
+			productRefGroup = DE3C677F1B6F6F6E00AE8C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE3C677D1B6F6F6E00AE8C06 /* grant-pdf-viewer */,
+				DE3C67921B6F6F6E00AE8C06 /* grant-pdf-viewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE3C677C1B6F6F6E00AE8C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE16D0041B8E4A05003CF11F /* Biomass.png in Resources */,
+				DEDF0E201B9F8E030033663D /* FontAwesome.ttf in Resources */,
+				DEA362881DD44D23005E84C2 /* Heat Pump.png in Resources */,
+				DE3C67891B6F6F6E00AE8C06 /* Main.storyboard in Resources */,
+				DE16D0011B8E49AF003CF11F /* Oil.png in Resources */,
+				DE16CFFF1B8E49AF003CF11F /* Cylinder.png in Resources */,
+				DE2FA9631BA367E700B30C81 /* Settings.bundle in Resources */,
+				DED1807D1B85232B00248D9D /* Grant logo.jpg.jpg in Resources */,
+				DE16CFFE1B8E49AF003CF11F /* Controls.png in Resources */,
+				DEA362861DD448D0005E84C2 /* Hybrid.png in Resources */,
+				DE3C67AA1B6F913C00AE8C06 /* pdfjs in Resources */,
+				DE3C67A91B6F913C00AE8C06 /* build in Resources */,
+				DE3C678E1B6F6F6E00AE8C06 /* LaunchScreen.xib in Resources */,
+				DE16D0021B8E49AF003CF11F /* Solar Thermal.png in Resources */,
+				DE3C678B1B6F6F6E00AE8C06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3C67911B6F6F6E00AE8C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE3C677A1B6F6F6E00AE8C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3C67861B6F6F6E00AE8C06 /* ViewController.swift in Sources */,
+				DE3C67A41B6F6FE400AE8C06 /* pdfDataSource.swift in Sources */,
+				DE3C67AE1B6F923800AE8C06 /* TableViewTwoController.swift in Sources */,
+				DEDF0E1F1B9F8E030033663D /* FAIcon.swift in Sources */,
+				DE3C67841B6F6F6E00AE8C06 /* AppDelegate.swift in Sources */,
+				DE3C67A61B6F8E7500AE8C06 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3C678F1B6F6F6E00AE8C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3C679A1B6F6F6E00AE8C06 /* grant_pdf_viewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE3C67951B6F6F6E00AE8C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3C677D1B6F6F6E00AE8C06 /* grant-pdf-viewer */;
+			targetProxy = DE3C67941B6F6F6E00AE8C06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE3C67871B6F6F6E00AE8C06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE3C67881B6F6F6E00AE8C06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE3C678C1B6F6F6E00AE8C06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE3C678D1B6F6F6E00AE8C06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE3C679B1B6F6F6E00AE8C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE3C679C1B6F6F6E00AE8C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE3C679E1B6F6F6E00AE8C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6CF3Q3376G;
+				INFOPLIST_FILE = "grant-pdf-viewer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grant.techbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE3C679F1B6F6F6E00AE8C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6CF3Q3376G;
+				INFOPLIST_FILE = "grant-pdf-viewer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grant.techbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DE3C67A11B6F6F6E00AE8C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "grant-pdf-viewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zweck.co.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grant-pdf-viewer.app/grant-pdf-viewer";
+			};
+			name = Debug;
+		};
+		DE3C67A21B6F6F6E00AE8C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "grant-pdf-viewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zweck.co.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grant-pdf-viewer.app/grant-pdf-viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE3C67791B6F6F6E00AE8C06 /* Build configuration list for PBXProject "grant-pdf-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3C679B1B6F6F6E00AE8C06 /* Debug */,
+				DE3C679C1B6F6F6E00AE8C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE3C679D1B6F6F6E00AE8C06 /* Build configuration list for PBXNativeTarget "grant-pdf-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3C679E1B6F6F6E00AE8C06 /* Debug */,
+				DE3C679F1B6F6F6E00AE8C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE3C67A01B6F6F6E00AE8C06 /* Build configuration list for PBXNativeTarget "grant-pdf-viewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3C67A11B6F6F6E00AE8C06 /* Debug */,
+				DE3C67A21B6F6F6E00AE8C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE3C67761B6F6F6E00AE8C06 /* Project object */;
+}
